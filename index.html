@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Journey</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0; /* Remove default margins */
+}
+
+header {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#about {
+    padding: 20px;
+    text-align: center; /* Center the content */
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    margin-bottom: 10px;
+}
+
+#favorites {
+    padding: 20px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.photo-grid figure {
+    margin: 0; /* Remove default figure margins */
+    border: 1px solid #ddd; /* Add borders to images*/
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block; /* Make images block elements */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    font-family: 'Your Heading Font', sans-serif; /* Replace with your font */
+}
+
+/* Example of pseudo-class */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Example of box model properties */
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* Example of background-color property */
+.background-example {
+  background-color: lightblue;
+}
+
+/* Example of font-family property */
+.font-example {
+  font-family: 'Courier New', monospace;
+}
+
+/* Example of overflow property */
+.overflow-example {
+  width: 100px;
+  height: 50px;
+  overflow: auto;
+}
+
+/* Example of borders property */
+.border-example {
+  border: 2px dashed red;
+}
+
+/* Example of font-weight and font-style properties */
+.font-style-example {
+  font-weight: bold;
+  font-style: italic;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Photo Journey</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Favorites</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="c:\Users\komui\Downloads\istockphoto-1550071750-612x612.jpg" alt="https://media.istockphoto.com/id/1550071750/photo/green-tea-tree-leaves-camellia-sinensis-in-organic-farm-sunlight-fresh-young-tender-bud.jpg?s=612x612&w=0&k=20&c=RC_xD5DY5qPH_hpqeOY1g1pM6bJgGJSssWYjVIvvoLw=">
+            <p>A short biography about you and your passion for photography.  <em>Emphasize</em>  My photographic journey began, as many do, with a simple desire to capture a moment.  It wasn't a grand, artistic vision that sparked it, but rather the fleeting beauty of a sunset over the lake – the way the fiery oranges and purples bled into the still water, mirroring the sky like a painted canvas.  I grabbed my phone, snapped a quick picture, and, like so many other phone photos, it almost immediately got lost in the digital abyss. <strong>Highlight</strong> I've developed a unique photographic style that reflects my personal vision.</p>
+        </section>
+
+        <section id="favorites">
+            <h2>My Favorite Photos</h2>
+            <div class="photo-grid">
+                <figure>
+                    <img src="c:\Users\komui\Downloads\istockphoto-157308877-612x612.jpg" alt="https://media.istockphoto.com/id/157308877/photo/growing-tea-leaves.jpg?s=612x612&w=0&k=20&c=88qSETCeJX2Y2d3M-8_nYUeizN5V_q17NgA0OG1XLh4=">
+                    <figcaption>Tea is a religion of the art of life.</figcaption>
+                </figure>
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 @Kimutai</p>
+    </footer>
+
+    <script src="script.js"></script> </body>
+</html>
